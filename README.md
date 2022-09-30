@@ -12,19 +12,19 @@ Open the command line ("Terminal" on the Mac, "Git Bash" on Windows) and change 
 
 Steps for Contributing
 
-$ cd projects/my-project             <-- Changing the directory to "my-project" -->
+$ cd projects/my-project           
 
 
-$ git init                           <--// Initializing the git -->
+$ git init                          
 
 
-$ git add .                          <-- // Adding all the files present in the folder -->
+$ git add .                          
 
 
-$ git commit -m "Initial commit"     <-- // Commit -->
+$ git commit -m "Initial commit"     
 
 
-$ git remote add origin <remote repository URL>      <--// Adding the origin-->
+$ git remote add origin <remote repository URL>      
   
   
-$ git push origin master             <--// Pushing the files in the folder-->
+$ git push origin master             
