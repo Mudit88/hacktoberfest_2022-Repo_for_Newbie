@@ -11,9 +11,10 @@ First, you need to have a local repository for your actual project code. (If you
 Open the command line ("Terminal" on the Mac, "Git Bash" on Windows) and change into your project's base directory. There, you can create a new Git repository:
 
 Steps for Contributing
-$ cd projects/my-project  // Changing the directory to "my-project"
-$ git init                // Initializing the git 
-$ git add .               // Adding all the files present in the folder
-$ git commit -m "Initial commit"  // Commit
-$ git remote add origin <remote repository URL> // Adding the origin
-$ git push origin master       // Pushing the files in the folder
+
+$ cd projects/my-project  <!-- Changing the directory to "my-project" -->
+$ git init                <!--// Initializing the git -->
+$ git add .              <!-- // Adding all the files present in the folder -->
+$ git commit -m "Initial commit" <!-- // Commit -->
+$ git remote add origin <remote repository URL> <!--// Adding the origin-->
+$ git push origin master       <!--// Pushing the files in the folder-->
