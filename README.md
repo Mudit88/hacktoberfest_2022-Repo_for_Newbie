@@ -15,16 +15,16 @@ Steps for Contributing
 $ cd projects/my-project  <-- Changing the directory to "my-project" -->
 
 
-$ git init                <!--// Initializing the git -->
+$ git init                <--// Initializing the git -->
 
 
-$ git add .              <!-- // Adding all the files present in the folder -->
+$ git add .              <-- // Adding all the files present in the folder -->
 
 
-$ git commit -m "Initial commit" <!-- // Commit -->
+$ git commit -m "Initial commit" <-- // Commit -->
 
 
-$ git remote add origin <remote repository URL> <!--// Adding the origin-->
+$ git remote add origin <remote repository URL> <--// Adding the origin-->
   
   
-$ git push origin master       <!--// Pushing the files in the folder-->
+$ git push origin master       <--// Pushing the files in the folder-->
