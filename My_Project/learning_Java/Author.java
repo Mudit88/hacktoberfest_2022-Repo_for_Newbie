@@ -6,4 +6,6 @@
 package My_Project.learning_Java;
 
 public class Author {
+    private String author_name;
+    private String author_pen_name;
 }

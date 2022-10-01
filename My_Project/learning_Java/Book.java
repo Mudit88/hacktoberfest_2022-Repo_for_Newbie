@@ -6,4 +6,10 @@
 package My_Project.learning_Java;
 
 public class Book {
+    private String ISBN_No;
+    private String title;
+    private String description;
+    private double price;
+
+    private Author author;
 }
