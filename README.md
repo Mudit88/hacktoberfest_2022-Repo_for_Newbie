@@ -5,6 +5,11 @@ This Repo is for Newbie who wants to start their journey in open source. Make su
 
 
 <!--    ![th](https://user-images.githubusercontent.com/88089351/193316171-dfc68fe6-c330-4338-9233-4e4da6519684.jpg) -->
+
+## Rules
+
+- Don't use filthy words and be welcome for beginners and other people in this community.
+
 ![n](https://user-images.githubusercontent.com/88089351/193316441-9341270d-3144-4869-9f56-e903faf102ed.jpg)
 
 First, you need to have a local repository for your actual project code. (If you already have this, then follow the procedure)
