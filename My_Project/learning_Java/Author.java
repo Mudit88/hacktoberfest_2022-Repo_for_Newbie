@@ -32,4 +32,12 @@ public class Author {
     public void setAuthor_pen_name(String author_pen_name) {
         this.author_pen_name = author_pen_name;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "author_name='" + author_name + '\'' +
+                ", author_pen_name='" + author_pen_name + '\'' +
+                '}';
+    }
 }

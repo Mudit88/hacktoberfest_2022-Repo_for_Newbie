@@ -63,4 +63,8 @@ public class Book {
     public void setAuthor(Author author) {
         this.author = author;
     }
+
+    public String displayBookDetails() {
+        return ISBN_No + " " + description + " " + title + " " + price + " " + author;
+    }
 }
