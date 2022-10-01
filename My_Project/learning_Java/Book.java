@@ -12,4 +12,15 @@ public class Book {
     private double price;
 
     private Author author;
+
+    public Book() {
+    }
+
+    public Book(String ISBN_No, String title, String description, double price, Author author) {
+        this.ISBN_No = ISBN_No;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.author = author;
+    }
 }
