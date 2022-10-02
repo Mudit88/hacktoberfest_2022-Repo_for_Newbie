@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  }
+body{
+    background-color: rgb(34, 32, 32);
+}
+button{
+    width: 180px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 8;
+    color: white;
+    margin:0px 50px 0 0;
+    border-radius: 30px;
+    border: solid 4px rgb(4, 209, 236);
+    background-color: rgb(63, 63, 63);
+    padding: 20px 30px 20px 30px;
+    float: right; 
+    transition: 1s;
+}
+button:hover{
+    background-color: rgb(3, 197, 223);
+    color: black;
+    
+}
+.top{
+    background-color: #00b3fa;
+    margin: 30px 0 30px 0px;
+    padding: 30px 0 30px 80px;
+    border-radius: 0 25px 25px 0;
+    font-size: 40px;
+    width: 150px;
+    color: black;
+}
+.details{
+    height: 200px;
+    border-radius: 5px;
+}
+.details p{
+    color: rgb(184, 179, 179);
+    margin-left: 300px;
+}
+.contact{
+    margin: 20px ;
+    font-size: 20px;
+}
+.profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 12, 12, 0.19);
+    border-radius: 50%;
+    border: solid rgb(77, 75, 75) 15px;
+    margin: 90px 60px 70px 250px;
+    float: left;
+    width: 300px;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    padding: 60px 200px 17px 0;
+    margin: 90px 0 0px 40px;
+}
+.education{
+    color:white;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 20px 29px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 12, 12, 0.19);
+    padding: 30px 0 30px 50px;
+    margin: 300px 0 50px 200px;
+    background-color: rgb(0, 132, 255);
+}
+.education h3{
+    font-size: 20px;
+}
+.education h2{
+    font-size: 40px;
+    margin: 20px 0 30px 0;
+    color: black;
+}
+.achievements{
+    margin: 150px 70px 50px 70px;
+}
+.achievements h2{
+    width: 220px;
+    font-family: georgia;
+    border-bottom: 4px groove rgb(37, 147, 250);
+    padding-bottom: 5px;
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+}
+.achievements img{
+    float: left;
+    margin: 40px 30px 0 0;
+}
+.achievements h3{
+    width: 200px;
+}
+.achievements h4{
+    color:white;
+    margin: 65px 0 0 0;
+    font-size: 25px;
+}
+.achievements p{
+    float: left;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+}
+.discription{
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 20px 29px 29px 20px rgba(0, 0, 0, 0.2), 20px 20px 20px 20px rgba(12, 12, 12, 0.19);
+    padding: 30px;
+    margin: 300px 50px 50px 50px;
+    background-color: rgb(0, 132, 255);
+}
+.discription h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0 30px 0;
+}
+.discription p{
+    color: wheat;
+    font-size: 25px;
+}
+.skills{
+    color: white;
+    border: solid 2px rgb(53, 50, 50);
+    border-radius: 25px;
+    box-shadow: 0 6px 6px 0 rgba(163, 150, 150, 0.2), 0 6px 6px 0 rgba(109, 92, 92, 0.19);
+    float: left;
+    width: 220px;
+    height: 200px;
+    padding: 20px 0 0 40px;
+    margin: 200px 20px 100px 60px;
+    background-color: rgb(27, 26, 26);
+}
+.skills h2{
+    color: rgb(0, 119, 255);
+    margin: 0 0 20px 60px;
+}
+.languages{
+    color: white;
+    border: solid 2px rgb(53, 50, 50);
+    border-radius: 25px;
+    box-shadow: 0 6px 6px 0 rgba(163, 150, 150, 0.2), 0 6px 6px 0 rgba(109, 92, 92, 0.19);
+    float: left;
+    width: 220px;
+    height: 200px;
+    padding: 20px 0 0 40px;
+    margin: 200px 20px 100px 30px;
+    background-color: rgb(27, 26, 26);
+}
+.languages h2{
+    color: rgb(0, 119, 255);
+    margin: 0 0 20px 25px;
+
+}
+.hobbies{
+    color: white;
+    border: solid 2px rgb(53, 50, 50);
+    border-radius: 25px;
+    box-shadow: 0 6px 6px 0 rgba(163, 150, 150, 0.2), 0 6px 6px 0 rgba(109, 92, 92, 0.19);
+    float: left;
+    width: 220px;
+    height: 200px;
+    padding: 20px 0 0 40px;
+    margin: 200px 20px 100px 30px;
+    background-color: rgb(27, 26, 26);
+}
+.hobbies h2{
+    color: rgb(0, 119, 255);
+    margin: 0 0 20px 40px;
+}
+.qualities{
+    color: white;
+    border: solid 2px rgb(53, 50, 50);
+    border-radius: 25px;
+    box-shadow: 0 6px 6px 0 rgba(163, 150, 150, 0.2), 0 6px 6px 0 rgba(109, 92, 92, 0.19);
+    float: left;
+    width: 220px;
+    height: 200px;
+    padding: 20px 0 0 40px;
+    margin: 200px 20px 100px 30px;
+    background-color: rgb(27, 26, 26);
+}
+.qualities h2{
+    color: rgb(0, 119, 255);
+    margin: 0 0 20px 40px;
+}
+
