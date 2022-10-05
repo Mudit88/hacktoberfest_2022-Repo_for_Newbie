@@ -1,1 +1,19 @@
-
+import java.util.*;
+class JAVA
+{
+    public static void main()
+    {   Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            for(in t j=1;j<=i;j++)
+            {
+              System.out.print('*');
+            }
+            System.out.println();
+        }// creating triangular pattern of *.
+    
+    }
+    
+}
+    
