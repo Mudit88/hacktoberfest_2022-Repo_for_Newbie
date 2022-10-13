@@ -1,0 +1,110 @@
+# include<bits/stdc++.h>
+using namespace std;
+// IN THIS CODE I AM USING  SEARCHING FOR THE KTH SMALESST NUMBER USING QUICK SELECTON AND MEDIAN OF MEDIAN
+int medianfor5(int arr[],int start,int end){
+////SIZE Of array
+int n=end-start+1;
+
+int crr[n];
+//index 
+int j=1;
+for(int i=start;i<=n;i++){
+ 
+crr[j]=arr[i];
+j++;
+}
+//soritng
+sort(crr,crr+end);
+return crr[n/2];
+
+
+}
+//In this I am partition an array as puich sort
+int partition (int arr[],int start,int end){
+int x= arr[end];
+int i=start;
+for (int j=start;j<end;j++){
+    if(arr[j]<=x){
+        //swaping 
+        swap(arr[i],arr[j]);
+        i++;
+    }
+}
+swap(arr[i],arr[end]);
+return i;
+}
+// in this i am searching whether an element in left side or right side
+int  quickselect(int arr[],int start,int end,int k){
+   //stopping condition  
+    if(k<1 ){
+      
+        return 0;
+    }
+// searching
+    if(k>end-start+1){
+      
+        return 0;
+    }
+   
+        int n=end-start+1;
+//median 
+       int w=n/5;
+      int y =ceil(w);
+       int median[y];
+       int j=start;
+       
+       for(int i=0;i<y;i++){
+//median of median
+median[i]=medianfor5(arr,j,j+4);
+j=j+5; 
+
+    }
+ // largest gropu size after taking median
+       int largestgroupsize=n-5*floor(n/5);
+    
+       median[y]=medianfor5(arr,j,end);
+           //positon of an element
+        int pos;
+int medianofmedians=quickselect(median,1,ceil(n/5),n/10);
+
+
+
+for(int i=start;i<=end;i++){
+    if(arr[i]==medianofmedians){
+        pos=i;
+       
+        break;
+    }
+    
+}//swaping with last element
+    swap(arr[pos],arr[end]);
+    //pivot
+    int pivot=partition(arr,start,end);
+    int r=pivot-start+1;
+    //pivot  cheching 
+    if(k==r){
+        return arr[pos];
+    }
+    if(k<r){
+        return quickselect(arr,start,pivot-1,k);
+    }
+    else{
+        return quickselect(arr,pivot+1,end,k-r);
+    }
+}
+int main(){
+// enter the size
+int n;
+cin>>n;
+cout<<"for the array element"<<endl;
+int arr[n];
+for(int i=1;i<=n;i++){
+    cin>>arr[i];
+}
+int k;
+cout<<"for the kth element"<<endl;
+cin>>k;
+//finder 
+cout <<"cout"<<" "<<quickselect(arr,0,n,k)<<endl;
+return 0;
+}
